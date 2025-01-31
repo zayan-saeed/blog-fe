@@ -178,7 +178,7 @@ const Update = () => {
                 <Button
                     onClick={updateBlogPost}
                     variant="contained"
-                    color="primary"
+                    color="warning"
                     disabled={loading}
                 >
                     {loading ? <CircularProgress size={24} /> : 'Update'}

@@ -3,7 +3,7 @@ import { Box, styled, Typography, Link } from '@mui/material';
 import { GitHub, Instagram, Email } from '@mui/icons-material';
 
 const Banner = styled(Box)`
-    background-image: url(https://www.wallpapertip.com/wmimgs/23-236943_us-wallpaper-for-website.jpg);
+    background-image: url(/images/IMG_7163.JPG);
     width: 100%;
     height: 50vh;
     background-position: left 0px bottom 0px;
@@ -18,7 +18,8 @@ const Wrapper = styled(Box)`
 `;
 
 const Text = styled(Typography)`
-    color: #878787;
+    color:rgb(82, 82, 82);
+    font-family: 'LIBRE BASKERVILLE', serif;
 `;
 
 const About = () => {
@@ -27,7 +28,7 @@ const About = () => {
         <Box>
             <Banner/>
             <Wrapper>
-                <Typography variant="h3">Welcome to Blog - Your Gateway to Diverse Ideas and Insights!</Typography>
+                <Typography variant="h2">Welcome to Bloggers - Your Gateway to Diverse Ideas and Insights!</Typography>
                 <Text variant="h5">Who We Are <br />
 We are a dynamic digital platform dedicated to sharing knowledge, stories, and perspectives across a wide spectrum of topics. Founded in 2024, Blog has grown into a vibrant community of writers, thinkers, and curious minds who believe in the power of sharing ideas.<br/><br />
 
